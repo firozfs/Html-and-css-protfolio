@@ -1,0 +1,346 @@
+
+/* COMMON  CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+hr {
+    border: 1px solid #757575;
+    margin: 20px 0;
+}
+
+/* HEADER AREA CSS START */
+
+.header-area {
+    background-color: #fff8f3;
+    height: 100vh;
+    background-image: url(../img/header_bg.png), url(../img/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left center;
+    
+}
+.container {
+    max-width: 1140px;
+    margin: 0px auto;   
+    
+}
+.nav-bar {
+    padding: 51px 0;
+
+}
+.nav-bar::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    font-size: 48px;
+}
+.logo span {
+    color: #fd6e0a;
+}
+ul {
+    float: right;
+}
+ul li {
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 41px;
+
+}
+ul li a {
+    font-size: 20px;
+    color: #474747;
+    
+}
+.btn {
+    background: #fd6e0a;
+    color: white;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+
+.text-area h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.text-area h1{
+    font-weight: 700;
+    font-size: 85px;
+}
+.text-area p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.btn-button-1 {
+    cursor: pointer;
+    background: #fd6e0a;
+    color: white;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;    
+}
+
+.btn-button-2 {
+    
+    cursor: pointer;
+    background-color: #FFF8F3;
+    color: #fd6e0a;
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid #fd6e0a;;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+.image-area img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    right: 0;
+
+
+}
+
+/* HEADER AREA CSS END HERE */
+
+
+/* ABOUT AREA CSS START HERE */
+
+
+
+/* START ABOUT AREA */
+
+
+.about-area {
+    background-color: #fff8f3;
+    text-align: center;
+    margin: 130px 0;
+    padding: 130px 157px;
+
+
+}
+
+.about-area h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+.about-area p {
+    margin: 30px 0;
+    color: #757575;
+
+}
+.about-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.contact h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+/* END ABOUT AREA */
+
+
+
+/* START what-i-do AREA */
+.what-i-do {
+    margin: 130px 0;
+}
+.what-i-do h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+
+}
+.what-i-do p {
+   color: #757575;
+   text-align: center;
+   margin-top: 30px;
+   
+}
+
+.item-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 30px;
+    
+}
+.item-section .item {
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    padding: 33px;
+}
+.item img {
+    text-align-last: left;
+
+}
+.item h3 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+.item-section .item p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    text-align: left;
+    
+}
+
+
+.resume {
+    margin-bottom: 130px;
+}
+.resume h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 113px;
+    text-align: center;
+}
+
+.my-resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+.education h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+.experience h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 30px;
+
+}
+
+.div1 h4 {
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 700;
+
+}
+.div1 h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 10px;
+
+}
+.div1 p {
+    color: #757575;
+    margin: 30px 0;
+    font-size: 16px;
+    line-height: 28px;
+}
+.btn-primary {
+    cursor: pointer;
+    background: #fd6e0a;
+    color: white;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 0; 
+    text-align: center;
+    
+   
+
+}
+
+/* FOOTER AREA SECTION START */
+
+.footer-area {
+    background-color: #fff8f3
+}
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 130px 0;
+    gap: 117px;
+}
+.contact-form-1 h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+
+.contact-form-2 h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 28px;
+
+}
+   
+.contact-form-1 a i {
+    color: #fd6e0a;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+input,textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 18px 30px;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background: #fd6e0a;
+    color: white;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 0; 
+    text-align: center;
+
+}
+
